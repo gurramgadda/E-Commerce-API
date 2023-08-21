@@ -1,0 +1,46 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore local development environment folders
+venv/
+env/
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore logs and temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore dependency files
+pip-*.log
+requirements.txt
+
+# Ignore compiled binary and package files
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore configuration files
+*.ini
+*.conf
+*.cfg
